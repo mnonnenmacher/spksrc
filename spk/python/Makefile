@@ -11,7 +11,8 @@ DEPENDS += cross/pyopenssl cross/pycrypto cross/m2crypto
 DEPENDS += cross/pycurl cross/pillow cross/cheetah cross/yenc cross/pyzmq
 DEPENDS += cross/sqlalchemy cross/pyaudio cross/pyalsa cross/lxml cross/twisted
 DEPENDS += cross/zope.interface cross/markupsafe cross/sphinxbase cross/pocketsphinx
-DEPENDS += cross/pyyaml cross/msgpack-python cross/pymongo cross/uwsgi
+DEPENDS += cross/pyyaml cross/msgpack-python cross/pymongo cross/uwsgi cross/wrapt
+DEPENDS += cross/duplicity
 
 WHEELS = uwsgi
 
